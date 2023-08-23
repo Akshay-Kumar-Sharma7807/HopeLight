@@ -27,7 +27,7 @@ function App() {
   return (
     <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
       <MantineProvider theme={{ colorScheme }} withGlobalStyles withNormalizeCSS>
-        <Notifications>
+        <Notifications />
 
           {/* <SpotlightProvider shortcut={['mod + P', 'mod + K', '/']} actions={["hi"].map(todo => {
             return {
@@ -43,7 +43,6 @@ function App() {
             </Router>
 
           {/* </SpotlightProvider> */}
-        </Notifications>
       </MantineProvider>
     </ColorSchemeProvider>
   )

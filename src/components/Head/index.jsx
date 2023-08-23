@@ -24,7 +24,7 @@ export default function Head({ opened, setOpened }) {
         </MediaQuery>
 
 
-        <Title order={3}>Todo</Title>
+        <Title order={3}>HopeLight</Title>
         <Group ml="auto" m="md">
           <Tooltip label="Search" withArrow>
             <ActionIcon onClick={() => spotlight.openSpotlight()} variant="default">

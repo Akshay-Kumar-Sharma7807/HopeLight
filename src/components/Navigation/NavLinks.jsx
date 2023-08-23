@@ -64,7 +64,7 @@ const data = [
 ];
 
 export function NavLinks() {
-  const [user, loading] = useAuthState(auth);
+  // const [user, loading] = useAuthState(auth);
   // const [linksData, setLinksData] = useLocalStorage({ key: "linksData", defaultValue: data });
   const [linksData, setLinksData] = useState(data);
 

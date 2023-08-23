@@ -17,9 +17,9 @@ import Navigation from './components/Navigation/Navigation';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from './components/Home';
 
-// import Settings from "./components/Settings";
+import Settings from "./components/Settings";
 // import Login from "./components/Login";
-// import Head from "./components/Head/";
+import Head from "./components/Head/";
 
 
 export default function Layout() {
